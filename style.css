@@ -1,0 +1,52 @@
+h1 {
+color: rgb(189, 41, 41);
+}
+
+h2 {
+color: rgb(153, 65, 255);
+}
+
+header {
+color: rgb(68, 146, 255);
+}
+
+/* ALl h1 under header */
+header > h1 {
+    color: rgb(106, 106, 42);
+}
+
+/* Mean h1 is directly under header tag */
+header h1 {
+    color: yellow;
+}
+
+/* # = select by ID */
+#service {
+    background-color: rgb(31, 188, 188);
+}
+
+/* Specificity */
+/* select by class name */
+.container .card{
+    color:lime;
+}
+
+.card {
+    color: rgb(74, 47, 47);
+}
+
+.container .card .card2 {
+    color: rgb(58, 255, 180);
+}
+
+.container .card h1 {
+    color: rgb(52, 43, 226);
+}
+
+.card h1 {
+    color: orange;
+}
+
+#html {
+    color: orange;
+}

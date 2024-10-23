@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: whitesmoke;
+}
+
+ul {
+    /* no dot */
+    list-style: none;
+}
+
+a {
+    /* no underline */
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(255, 110, 0);
+}
+
+header {
+    background-color: rgb(255, 110, 0);
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 15px;
+    /* gap or margin to give word space */
+    background-color: rgb(235, 235, 235);
+}
+
+.nav-list a {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: rgb(121, 121, 121);
+}
+
+main {
+    display: flex;
+    gap: 30px;
+    /* padding: 40px; */
+    /* margin: 100px; */
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 40px;
+    /* border: 3px solid red; */
+}
+
+main section {
+    /* width can't auto count */
+    /* width: 650px; */
+    /* flex can auto count */
+    flex: 1;
+}
+
+main aside {
+    width: 200px;
+}
+
+section h2 {
+    margin: 15px 0;
+}
+
+aside h3 {
+    padding: 5px;
+    background-color: rgb(255, 110, 0);
+    color: white;
+}
+
+aside li {
+    background-color: rgb(239, 239, 239);
+    border-bottom: 1px solid rgb(206, 206, 206);
+    
+}
+
+.container{
+    width: 900;
+
+}

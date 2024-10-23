@@ -1,0 +1,116 @@
+/* universal selector (select all page)*/
+* {
+    word-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* element selector */
+p {
+    color: #55eb14;
+}
+
+/* ID selector */
+#heading {
+    color: blue;
+}
+
+#unique-box {
+    border: 2px solid rgb(0, 107, 143);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* class selector */
+.simply {
+    color: rgb(255, 112, 222);
+}
+
+.box {
+    background: rgb(253, 255, 204);
+}
+
+/* attribute selector */
+input[type="text"] {
+    border: 2px solid rgb(70, 70, 145);
+}
+
+/* descendant selector */
+/* element */
+ul li {
+    color: peru;
+}
+
+div h2 {
+    color: gold;
+}
+
+ul.list li.highlight {
+    color: red;
+}
+
+/* direct child select */
+/* class and element */
+ul.list > li {
+    list-style-type: square;
+    margin-left: 80px;
+}
+
+/* direct child element */
+div > h2 {
+    color: purple;
+}
+
+/* direct child class */
+.box > .child {
+    color: pink;
+}
+
+/* multiple classes selection within element */
+.inner-box.first-box {
+    color: rgb(165, 38, 81);
+}
+
+/* multiple elements */
+h5, h6 {
+    color: plum;
+}
+
+/* multiple class */
+.multiple1, .multiple2 {
+    color: powderblue;
+}
+
+/* adjacent sibling selector */
+/* element */
+div + a {
+    color: rgb(118, 113, 36);
+}
+
+/* class */
+/* Sibling A & Sibling D */
+.link + .box-sibling {
+    background-color: lightblue;
+}
+
+/* general sibling selector */
+/* class */
+/* Sibling A to Sibling Z */
+.box ~ .general-sibling {
+    background-color: rgb(68, 110, 31);
+}
+
+/* element */
+h1 ~ h4 {
+    color: brown;
+}
+
+/* pseudo-class selector */
+.pseudo-class-link:hover {
+    color: rgb(171, 214, 63);
+    text-decoration: underline;
+}
+
+/* pseudo-class selector */
+p::first-letter {
+    text-transform: capitalize;
+}

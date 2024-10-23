@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="HTML example" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Anatoliy Lobanov" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <!-- Semantic vs Non-Semantic -->
+     
+    <!-- headings -->
+        <header>
+            <h1>[Header] Html examples</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+        </header>
+    
+    <!-- paragraph -->
+        <article>
+            
+        <p id="service">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est commodi quis natus unde incidunt sed neque doloremque distinctio dolor eaque! Quia quibusdam ut exercitationem nemo aliquam accusamus nam magni porro.
+        </p>
+        <header>
+            <div class="container">
+                <div class="card">
+                    <h1>[Container Class] Html examples</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </div>
+            </div>
+        </header>
+
+        <header>
+            <div class="card">
+                <div card2="card2">
+                    <h1 >[Card2] Html examples</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </div>
+            </div>
+        </header>
+        <!-- text emphasis tags -->
+        <p>This is <strong>Important !</strong></p>
+        <p>This is <em>emphaiszed</em> text</p>
+        <p>This is <del>deleted</del> text</p>
+        <p>This is <mark>marked</mark> text</p>
+        <p>This is <ins>inserted</ins> text</p>
+        <p>This is <sub>subscript</sub> text</p>
+        <p>THis is <sup>superscript</sup> text</p>
+        </article>
+
+    <section>
+    <!-- unorder list -->
+        <ul style="background-color: rgba(163, 223, 213, 0.343)">
+            <li>Item one</li>
+            <li>Item two</li>
+            <li>Item three</li>
+            <li>Item four</li>
+        </ul>
+    <!-- order list -->
+    <ol>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+        <li>Item four</li>
+    </ol>
+    <!-- nested list -->
+    <ul>
+        <li>Item one</li>
+        <li>Item two</li>
+        <ul>
+            <li>Item three</li>
+            <li>Item four</li>
+            <ul>
+                <li>Item five</li>
+                <li>Item six</li>
+            </ul>
+        </ul>
+    </ul>
+    </section>
+
+    <!-- link -->
+        <section>
+        <h2>external link</h2>
+        <a href="https://google.com" style="background-color: rgb(234, 192, 255)">Google</a>
+        <h2>link with target</h2>
+        <a href="https://google.com" target="_blank">Google</a>
+        <h2>relative link</h2>
+        <a href="about.html">About</a>
+        <h2>internal link</h2>
+        <a href="#service">go to service section</a>
+            <!-- # = id, # find service id -->
+        <h2>email links</h2>
+        <a href="mailto:abcc@example.com">send an email</a>
+        <h2>file link</h2>
+        <a href="IDMC.pdf">Download IDMC</a>
+        <h2>title attribute</h2>
+        <a href="about.html" title="go to about">About page</a>
+            <!-- title = smaller description -->
+        </section>
+    <!-- Image -->
+        <img src="https://picsum.photos/200/300" 
+        alt="image" 
+        width="150px"
+        height="150px" 
+        title="nice picture~ :D"
+        />
+        <figure>
+            <img
+                src="https://picsum.photos/200/300"
+                alt="image"
+                width="100px"
+                height="100px"
+                />
+                <figcaption>Fig 1. - My trip to HK</figcaption>
+        </figure>
+
+    <!-- forms -->
+        <form action="#" method="POST">
+            <!-- 用div隔行 -->
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required placeholder="Please input name"/>
+            </div>
+            <div>
+                <label for="Password">Password</label>
+                <input type="text" name="Password" id="Password" minlength="3" maxlength="5" required/>
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" value="John@example.com"/>
+            </div>
+            <!-- <div>
+                <label for="textarea">textarea</label>
+                <textarea 
+                type="textarea" name="textarea" id="textarea" 
+                cols="10" rows="10" 
+                />
+            </div> -->
+            <button type="submit">Submit</button>
+        </form>
+    
+    <!-- form selection -->
+        <form>
+            <label for="product">Product</label>
+            <!-- select: multiple value -->
+            <select name="product" id="product" multiple size="4">
+                <option value="samsung">samsung S99</option>
+                <option value="nokia">nokia 3310</option>
+                <!-- track mark will depends on selected function -->
+                <option value="iphone 16 Pro Max" selected>iphone 16 Pro Max</option>
+                <option value="iphone 16 Pro">iphone 16 Pro</option>
+                <option value="iphone 16">iphone 16</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+
+    <!-- form checkbox -->
+        <form>
+            <label for="html">
+                <input type="checkbox" name="html" id="html" value="html" />HTML
+            </label>
+            <label for="css">
+                <input type="checkbox" name="web"  id="css" value="css" checked/>CSS
+                <!-- checked = default value on checkbox function -->
+            </label>
+        </form>
+
+        <!-- form radio -->
+        <form>
+            <label for="smaller">
+                <input type="radio" name="size" id="small" value="small" checked>small
+            </label>
+            <label for="medium">
+                <input type="radio" name="size" id="medium" value="medium" checked>medium
+                <!-- checked = default value on radio function -->
+            </label>
+            <label for="large">
+                <input type="radio" name="size" id="large" value="large">large
+            </label>
+            <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message to cs"></textarea>
+            <!-- Bottom submit -->
+            <input type="submit" />
+            <!-- Link submit -->
+            <a href="#" type="submit">Send</a>  
+            <div>
+                <label for="color">Color</label>
+                <input type="color" name="color" id="color">
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div>
+                <label for="time">Time</label>
+                <input type="time" name="time" id="time">
+            </div>
+            <div>
+                <label for="week">Week</label>
+                <input type="week" name="week" id="week">
+            </div>
+            <div>
+                <label for="month">Month</label>
+                <input type="month" name="month" id="month">
+            </div>
+            <div>
+                <label for="range">Range</label>
+                <input type="range" name="range" id="range" min="0" max="100"
+                step="10" value="50">
+            </div>
+            <div>
+                <label for="url">URL</label>
+                <input type="url" name="url" id="url">
+            </div>
+        <!-- list select -->
+            <!-- datalist link with input list -->
+            <label for="lang">Programming Language</label>
+            <input list="languages" id="lang" name="lang">
+            <datalist id="languages">
+                <option value="Python"></option>
+                <option value="Java"></option>
+                <option value="C++"></option>
+                <option value="Javascript"></option>
+            </datalist>
+
+
+        <!-- rage with datalist -->
+            <div>
+                <label for="range1">Range</label>
+                <input type="range" list="range2" name="range" id="range1" min="0" max="100"
+                step="10">
+                <datalist id="range2">
+                    <option value="0"></option>
+                    <option value="10"></option>
+                    <option value="20"></option>
+                    <option value="30"></option>
+                    <option value="40"></option>
+                    <option value="50"></option>
+                    <option value="60"></option>
+                    <option value="70"></option>
+                    <option value="80"></option>
+                    <option value="90"></option>
+                    <option value="100"></option>
+                </datalist>
+            </div>
+        </form>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
