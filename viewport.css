@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    background: orange;
+    height: 50vh;
+    width: 50vh;
+    overflow: hidden;
+}
+
+.container h1 {
+    /* vh or vw(larger) */
+    font-size: 7vw;
+}
+
