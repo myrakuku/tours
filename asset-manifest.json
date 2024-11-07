@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tours/static/css/main.6138c204.css",
+    "main.js": "/tours/static/js/main.1ee5188a.js",
+    "static/media/S13.jpg": "/tours/static/media/S13.b37104d5164e4c0d5c5e.jpg",
+    "static/media/tour-4.png": "/tours/static/media/tour-4.fcb3e9e67482d5e43eb5.png",
+    "static/media/tour-2.jpg": "/tours/static/media/tour-2.7322e6a718fd421dba3d.jpg",
+    "static/media/tour-1.jpg": "/tours/static/media/tour-1.5283078107b1e7d89d7b.jpg",
+    "static/media/about.jpg": "/tours/static/media/about.a9022e966ef599ca9cdc.jpg",
+    "static/media/tour-3.jpg": "/tours/static/media/tour-3.d1b709bf6c4882563a72.jpg",
+    "static/media/logo.svg": "/tours/static/media/logo.75d96cb8eb5ab189e6f6831c90800be4.svg",
+    "index.html": "/tours/index.html",
+    "main.6138c204.css.map": "/tours/static/css/main.6138c204.css.map",
+    "main.1ee5188a.js.map": "/tours/static/js/main.1ee5188a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6138c204.css",
+    "static/js/main.1ee5188a.js"
+  ]
+}
