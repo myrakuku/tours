@@ -14,7 +14,7 @@ function About() {
         <h3>explore the difference</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, error officia odit recusandae doloremque in voluptatibus quo? Aspernatur, ipsa sunt?</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti vero placeat laborum voluptatibus accusantium voluptatum, numquam libero aspernatur laboriosam nesciunt.</p>
-        <a href="#" className="btn">read more</a>
+        <a href="#home" className="btn">read more</a>
     </article>
 </div>
 </section>

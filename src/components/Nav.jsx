@@ -30,12 +30,6 @@ function Nav() {
             <i className="fa-solid fa-bars"></i>
         </button>
         <PageLinks parentClass = {isToggled ? "mobile-nav-list active" : "mobile-nav-list"} itemClass='nav-link' id='mobile-nav-list'/>
-        {/* <ul className="mobile-nav-list" id="mobile-nav-list">
-            <li><a href="#home" className="mobile-nav-link">Home</a></li>
-            <li><a href="#about" className="mobile-nav-link">About</a></li>
-            <li><a href="#services" className="mobile-nav-link">Services</a></li>
-            <li><a href="#tours" className="mobile-nav-link">Tours</a></li>
-        </ul> */}
     </div>
 </nav>
   )
